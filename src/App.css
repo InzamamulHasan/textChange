@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: #282c34;
+}
+.app{
+  width: 100%;
+  color: aliceblue;
+}
+.app-container{
+  padding: 20px;
+  margin: auto;
+  width: 60%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.app-container>div{
+  margin: auto;
+}
+button:hover{
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+}
+input{
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+button{
+  margin: 10px;
+  background-color: #697181;
+  border-radius: 5px;
+  padding-bottom: 3px;
+}
+hr{
+  width: 100%;
+}
+.rest{
+  background-color: rgb(155, 25, 25);
+}
+.rest:hover{
+  background-color:rgb(155, 25, 25); ;
+}
